@@ -6,7 +6,7 @@ import os, sublime, sublime_plugin
 class FileUtils:
 	@staticmethod
 	def get_path_array(fullpath):
-		return str(fullpath).split(FileUtils.pathsep)
+		return str(fullpath).split(os.path.sep)
 
 	@staticmethod
 	def get_filename(fullpath):
@@ -20,11 +20,9 @@ class FileUtils:
 
 		for i in range(patharraylen):
 			if (i < patharraylen - 1):
-				path = path  + (FileUtils.pathsep if i > 0 else "") + patharray[i]
+				path = path  + (os.path.sep if i > 0 else "") + patharray[i]
 
 		return path if path != "" else "None"
-
-FileUtils.pathsep = "\\"
 
 class WindowsUtils:
 	@staticmethod
