@@ -12,7 +12,7 @@ Installation
 
 License
 -------
-This Plugin is licensed under a BSD license. See [LICENSE](https://github.com/brendaw/FilesInfoStatusBar/blob/master/LICENSE) for more information.
+This Plugin is licensed under a BSD license. See [LICENSE.txt](https://github.com/brendaw/FilesInfoStatusBar/blob/master/LICENSE.txt) for more information.
 
 Help Improve
 ------------
