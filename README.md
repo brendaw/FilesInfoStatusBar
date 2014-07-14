@@ -4,8 +4,29 @@ FilesInfoStatusBar Plugin
 A Sublime Text (2 or 3) plugin that add files information on Status Bar. 
 Great for minimalist developers and use with the Sublime portable version integrated with [Cmder](https://github.com/bliker/cmder/) ([Seamless Sublime Text 3 Integration](https://github.com/bliker/cmder/wiki/Seamless-Sublime-Text-3-Integration)).
 
+![statusbarplugincmderwindow](https://cloud.githubusercontent.com/assets/3674847/3572004/90e6910c-0b63-11e4-956d-24229e440c0a.png)
+
 Overview
 --------
+![statusbarpluginfocuscmderwindow](https://cloud.githubusercontent.com/assets/3674847/3572006/90ee5040-0b63-11e4-924f-8c3479752ad7.png)
+
+In a close look to the Sublime StatusBar, the FilesInfoStatusBar plugin adds this features:
+
+### Index:
+___{File Position}/{# of All Files}___
+
+Shows the position of the current file on the list of all files and the number of all files. Very useful to help you when you don't have the tabs on the screen.
+
+### File:
+___{The File Name}___
+
+Shows the file name of the current editable file.
+
+### Path:
+___{The File Path}___
+
+Shows the file path without the filename of the current editable file.
+
 
 Installation
 ------------
