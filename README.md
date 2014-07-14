@@ -31,6 +31,14 @@ Shows the file path without the filename of the current editable file.
 Installation
 ------------
 
+1. Download the [FileInfoStatusBar.py](https://raw.githubusercontent.com/brendaw/FilesInfoStatusBar/master/FilesInfoStatusBar.py);
+2. Move the file to
+  - If in a portable version: %SUBLIME_PORTABLE_PATH%/Data/Packages/User
+  - If in a normal version: %SUBLIME_NORMAL_PATH%/Packages/User
+3. Restart Sublime Text
+4. Enjoy :)
+
+
 License
 -------
 This Plugin is licensed under a BSD license. See [LICENSE.txt](https://github.com/brendaw/FilesInfoStatusBar/blob/master/LICENSE.txt) for more information.
